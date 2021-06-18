@@ -24,6 +24,7 @@ public class InicioView extends VerticalLayout {
     private final AuthService authService;
     private final CategoriaService categoriaService;
 
+
     public InicioView(MovimientoService movimientoService, TarjetaService tarjetaService, AuthService authService, CategoriaService categoriaService){
         this.movimientoService = movimientoService;
         this.tarjetaService = tarjetaService;
