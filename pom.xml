@@ -9,7 +9,7 @@
     <packaging>jar</packaging>
 
     <properties>
-<!--        <java.version>11</java.version>-->
+        <java.version>8</java.version>
         <vaadin.version>14.5.4</vaadin.version>
     </properties>
 
@@ -274,6 +274,7 @@
                     <compilerArgs>--enable-preview</compilerArgs>
                 </configuration>
             </plugin>
+
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
