@@ -54,7 +54,7 @@ INSERT INTO tarjetas (cvv,fecha_caducidad,limite_maximo,numero_tarjeta,tipo_tarj
 	 (992,'2022-10-02',500.0,'94270041','Débito',4);
 
 -- MOVIMIENTOS --
-	 INSERT INTO training2.movimientos (cantidad,concepto,fecha_operacion,fecha_valor,num_tarjeta,saldo_actual,id_categoria,id_cuenta) VALUES
+	 INSERT INTO movimientos (cantidad,concepto,fecha_operacion,fecha_valor,num_tarjeta,saldo_actual,id_categoria,id_cuenta) VALUES
      	 (50.0,'ingreso','2021-02-01','2021-02-01','',50.0,1,1),
      	 (50.0,'ingreso','2021-02-05','2021-02-05','',100.0,1,1),
      	 (1500.0,'nomina','2021-02-16','2021-02-16','',1600.0,7,1),
@@ -65,7 +65,7 @@ INSERT INTO tarjetas (cvv,fecha_caducidad,limite_maximo,numero_tarjeta,tipo_tarj
      	 (-100.0,'El corte ingles','2021-02-23','2021-02-23','15165165',1250.0,6,1),
      	 (-100.0,'Hotel Marina','2021-02-22','2021-02-22','56161665',1350.0,4,1),
      	 (-50.0,'Repsol','2021-02-23','2021-02-23','56161665',1300.0,2,1);
-     INSERT INTO training2.movimientos (cantidad,concepto,fecha_operacion,fecha_valor,num_tarjeta,saldo_actual,id_categoria,id_cuenta) VALUES
+     INSERT INTO movimientos (cantidad,concepto,fecha_operacion,fecha_valor,num_tarjeta,saldo_actual,id_categoria,id_cuenta) VALUES
      	 (-200.0,'Mediamarkt','2021-02-24','2021-02-24','15165165',1050.0,6,1),
      	 (-50.0,'Movistar','2021-02-25','2021-02-25','56161665',1350.0,8,1),
      	 (50.0,'ingreso','2021-03-01','2021-03-01','',1400.0,1,1),
@@ -76,7 +76,7 @@ INSERT INTO tarjetas (cvv,fecha_caducidad,limite_maximo,numero_tarjeta,tipo_tarj
      	 (-50.0,'Emasa Agua','2021-03-21','2021-03-21','15165165',2750.0,8,1),
      	 (-100.0,'Hotel Florida','2021-03-22','2021-03-22','15165165',2650.0,4,1),
      	 (-100.0,'El corte ingles','2021-03-23','2021-03-23','56161665',2550.0,6,1);
-     INSERT INTO training2.movimientos (cantidad,concepto,fecha_operacion,fecha_valor,num_tarjeta,saldo_actual,id_categoria,id_cuenta) VALUES
+     INSERT INTO movimientos (cantidad,concepto,fecha_operacion,fecha_valor,num_tarjeta,saldo_actual,id_categoria,id_cuenta) VALUES
      	 (-100.0,'Hotel Marina','2021-03-22','2021-03-22','15165165',2450.0,4,1),
      	 (-50.0,'Repsol','2021-03-23','2021-03-23','15165165',2400.0,2,1),
      	 (-200.0,'Mediamarkt','2021-03-24','2021-03-24','56161665',2200.0,6,1),
@@ -87,7 +87,7 @@ INSERT INTO tarjetas (cvv,fecha_caducidad,limite_maximo,numero_tarjeta,tipo_tarj
      	 (-50.0,'Carrefour','2021-04-26','2021-04-26','67302742',2100.0,9,2),
      	 (-50.0,'Movistar','2021-04-27','2021-04-27','67302742',2050.0,7,2),
      	 (-50.0,'Mercadona','2021-04-28','2021-04-28','30432433',2000.0,5,2);
-     INSERT INTO training2.movimientos (cantidad,concepto,fecha_operacion,fecha_valor,num_tarjeta,saldo_actual,id_categoria,id_cuenta) VALUES
+     INSERT INTO movimientos (cantidad,concepto,fecha_operacion,fecha_valor,num_tarjeta,saldo_actual,id_categoria,id_cuenta) VALUES
      	 (-50.0,'El Corte Ingles','2021-04-29','2021-04-29','67302742',1950.0,3,2),
      	 (1050.0,'Nómina','2021-04-30','2021-04-30','',3000.0,7,2),
      	 (-50.0,'Hotel Florida','2021-05-01','2021-05-01','67302742',2950.0,4,2),
@@ -98,7 +98,7 @@ INSERT INTO tarjetas (cvv,fecha_caducidad,limite_maximo,numero_tarjeta,tipo_tarj
      	 (-50.0,'Dentista','2021-05-06','2021-05-06','30432433',2700.0,7,2),
      	 (-50.0,'ITV','2021-05-07','2021-05-07','67302742',2650.0,7,2),
      	 (-50.0,'Repsol','2021-04-23','2021-04-23','89789873',2600.0,2,3);
-     INSERT INTO training2.movimientos (cantidad,concepto,fecha_operacion,fecha_valor,num_tarjeta,saldo_actual,id_categoria,id_cuenta) VALUES
+     INSERT INTO movimientos (cantidad,concepto,fecha_operacion,fecha_valor,num_tarjeta,saldo_actual,id_categoria,id_cuenta) VALUES
      	 (-200.0,'Mediamarkt','2021-04-24','2021-04-24','21210741',2400.0,6,3),
      	 (-50.0,'Movistar','2021-04-25','2021-04-25','89789873',2350.0,8,3),
      	 (-50.0,'Carrefour','2021-04-26','2021-04-26','89789873',2300.0,9,3),
@@ -109,7 +109,7 @@ INSERT INTO tarjetas (cvv,fecha_caducidad,limite_maximo,numero_tarjeta,tipo_tarj
      	 (-50.0,'Hotel Florida','2021-05-01','2021-05-01','21210741',3150.0,4,3),
      	 (-50.0,'Repsol','2021-05-02','2021-05-02','89789873',3100.0,2,3),
      	 (-50.0,'Mediamarkt','2021-05-03','2021-05-03','21210741',3050.0,9,3);
-     INSERT INTO training2.movimientos (cantidad,concepto,fecha_operacion,fecha_valor,num_tarjeta,saldo_actual,id_categoria,id_cuenta) VALUES
+     INSERT INTO movimientos (cantidad,concepto,fecha_operacion,fecha_valor,num_tarjeta,saldo_actual,id_categoria,id_cuenta) VALUES
      	 (-50.0,'Emasa Agua','2021-05-04','2021-05-04','89789873',3000.0,8,3),
      	 (-50.0,'Restaurante Paca','2021-05-05','2021-05-05','89789873',2950.0,1,3),
      	 (-50.0,'Dentista','2021-05-06','2021-05-06','21210741',2900.0,7,3),
@@ -120,7 +120,7 @@ INSERT INTO tarjetas (cvv,fecha_caducidad,limite_maximo,numero_tarjeta,tipo_tarj
      	 (-50.0,'Carrefour','2021-04-26','2021-04-26','94270041',2500.0,9,4),
      	 (100.0,'Ingreso','2021-04-27','2021-04-27','',2600.0,7,4),
      	 (-50.0,'Mercadona','2021-04-28','2021-04-28','74210723',2550.0,5,4);
-     INSERT INTO training2.movimientos (cantidad,concepto,fecha_operacion,fecha_valor,num_tarjeta,saldo_actual,id_categoria,id_cuenta) VALUES
+     INSERT INTO movimientos (cantidad,concepto,fecha_operacion,fecha_valor,num_tarjeta,saldo_actual,id_categoria,id_cuenta) VALUES
      	 (-50.0,'El Corte Ingles','2021-04-29','2021-04-29','94270041',2500.0,3,4),
      	 (-50.0,'Hotel Florida','2021-05-01','2021-05-01','74210723',2450.0,4,4),
      	 (50.0,'Ingreso','2021-05-02','2021-05-02','',2500.0,2,4),
