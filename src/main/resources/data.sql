@@ -1,3 +1,5 @@
+SET @@auto_increment_increment = 1;
+
 -- CATEGORIAS ---
 INSERT INTO categorias (tipo_categoria) VALUES
 	 ('Restaurantes'),
